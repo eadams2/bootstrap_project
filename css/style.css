@@ -7,7 +7,12 @@ body {
     background-color: #f5f5f5;
     color: #878787;
     font-size: 12px;
-    text-transform: uppercase;
+    border-top: solid #09a6b8 2px;
+}
+
+.topbar li {
+    text-decoration: none;
+    display: inline;
 }
 
 .topbar a{
@@ -16,6 +21,12 @@ body {
 
 .topbar2 a{
     color: #09a6b8;
+    text-align: right;
+
+}
+
+.topbar2 p {
+    text-align: right;
 }
 
 .secondary-bar {
@@ -23,17 +34,34 @@ body {
 }
 
 .secondary-bar a {
-    text-decoration: none;
-    
+    background-color: #e6e6e6;
     padding: 10px 15px;
-    color: #000
+    color: #a1a1a1;
     border-radius: 5px;
-    margin-top: 30px;
+}
+
+.secondary-bar a:hover {
+    background-color: #09a6b8;
+    color: 
+}
+
+.secondary-bar ul {
+    text-align: right;
+}
+
+.secondary-bar li {
+    text-decoration: none;
+    display: inline;
 }
 
 .primary-bar {
     margin-top: 30px;
     font-size: 18px;
+}
+
+.primary-bar li {
+    text-decoration: none;
+    display: inline;
 }
 
 .primary-bar a {
@@ -50,16 +78,151 @@ body {
     border: responsive;
 }
 
-.email h3 {
+.free-shipping {
+    margin-top: 30px;
+}
+
+.latest a {
+    text-align: right;
+    background-color: #fafafa;
+    padding: 10px 15px;
+    color: #a1a1a1;
+    border-radius: 5px;
+}
+
+.bracelet a {
+    text-decoration: none;
+    background-color: #000;
+    padding: 10px 15px;
+    color:white;
+    border-radius: 5px;
+}
+
+.product {
+    text-align: center;
+}
+
+.venedor {
+    margin-top: 50px;
+}
+
+.bestsellers {
+    margin-top: 30px;
+}
+
+.bestsellers a {
+    text-align: right;
+    background-color: #fafafa;
+    padding: 10px 15px;
+    color: #a1a1a1;
+    border-radius: 5px;
+}
+
+.shoes {
+    margin-top: 30px;
+}
+
+.shoes a {
+    text-decoration: none;
+    background-color: #000;
+    padding: 10px 15px;
+    color:white;
+    border-radius: 5px;
+}
+
+.manufacturers {
+    margin-top: 30px;
+}
+
+.manufacturers a {
+    text-align: right;
+    background-color: #fafafa;
+    padding: 10px 15px;
+    color: #a1a1a1;
+    border-radius: 5px;
+}
+
+.brand-logo {
+    margin-top: 30px;
+}
+
+.email {
     background-color: #d4d4d4;
+    margin-top: 50px;
+}
+
+.email form {
+    text-align: right;
+    padding: 30px;
+}
+
+.input {
+    border: solid #fae01e 3px;
+}
+
+.signup {
+    background-color: #424a4a;
+    color: #f5f5f5;
 }
 
 .account {
     background-color: #424a4a;
     color: #e3e3e3;
+    padding: 30px;
 }
 .account ul{
     display: inline;
     margin-right: 5px;
-    
+}
+
+.account li {
+    color: #09a6b8;
+    padding: 10px;
+}
+
+.account a {
+    color: #ababab;
+}
+
+.account a:hover {
+    color: #09a6b8;
+    text-decoration: none;
+}
+
+.twitter a {
+    color: #09a6b8;
+}
+
+.twitter p {
+    color: #ababab;
+}
+
+.facebook a {
+    color: #ababab;
+}
+
+.facebook p {
+    padding: 20px;
+}
+
+.like-button a {
+    background-color: #09a6b8;
+    padding: 10px 15px;
+    color: #f7ffff;
+    border-radius: 5px;
+}
+
+.like-button a:hover {
+    color: #f7ffff;
+}
+
+.promokit a {
+    color: #09a6b8;
+}
+
+.footer {
+    background-color: #424a4a;
+    color: #ababab;
+    padding: 30px;
+    border-top: solid #000000 1px;
 }
