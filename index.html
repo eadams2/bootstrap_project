@@ -7,6 +7,7 @@
         <title>Bootstrap Project</title>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="topbar">
@@ -55,10 +56,9 @@
                     </ul>
                 </div>
                 <div class="col-sm-4">
-                    <form action="https://www.example.org/search.php">
-                        <input type="search" name="search"
-                        placeholder="Search Here..."/>
-                        <input type="submit" value="Search" />
+                    <form class="example" action="action_page.php">
+                        <input type="text" placeholder="Search Here..." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
                 </div>
             </div>
@@ -89,8 +89,8 @@
         <div class="latest container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h2>Latest</h2>
-                    <p>Buy discount items from the latest collections of world brands</p>
+                    <h2 class="color-bar">Latest</h2>
+                        <p>Buy discount items from the latest collections of world brands</p>
                 </div>
                 <div class="col-sm-6">
                     <a href="#">&lt;</a>
@@ -127,7 +127,7 @@
         <div class="venedor container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h2>Welcome to Venedor</h2>
+                    <h2 class="color-bar">Welcome to Venedor</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magni voluptates illo commodi eos! Labore fugiat laborum dolorem doloremque dolore fuga. Tempore neque nobis ipsam officiis eum ipsum libero ad cum? Aliquid quisquam voluptate eum nemo!</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde perspiciatis ducimus, suscipit voluptatum voluptas corrupti placeat eius natus minus possimus quis praesentium quam illum dicta molestias magni numquam saepe, culpa ut a sapiente.<a href="Buy Venedor Theme">Buy Venedor Theme</a></p>
                 </div>
@@ -140,8 +140,8 @@
         <div class="bestsellers container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h2>Bestsellers</h2>
-                    <p>Special offers and biggest discounts for the most popular products.</p>
+                    <h2 class="color-bar">Bestsellers</h2>
+                        <p>Special offers and biggest discounts for the most popular products.</p>
                 </div>
                 <div class="col-sm-6">
                     <a href="#">&lt;</a>
@@ -178,7 +178,7 @@
         <div class="manufacturers container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h2>Manufacturers</h2>
+                    <h2 class="color-bar">Manufacturers</h2>
                 </div>
                 <div class="col-sm-6">
                     <a href="#">&lt;</a>
@@ -226,72 +226,86 @@
                 </div>    
             </div>
         </div>
-        <div class="account">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <h4>MY ACCOUNT</h4>
-                        <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Personal Information</a></li>
-                            <li><a href="#">Addresses</a></li>
-                            <li><a href="#">Discount</a></li>
-                            <li><a href="#">Orders history</a></li>
-                            <li><a href="#">Your Vouchers</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <h4>INFORMATION</h4>
-                        <ul>
-                            <li><a href="#">New Products</a></li>
-                            <li><a href="#">Top Sellers</a></li>
-                            <li><a href="#">Specials</a></li>
-                            <li><a href="#">Manufacturers</a></li>
-                            <li><a href="#">Suppliers</a></li>
-                            <li><a href="#">Our Stores</a></li>
-                        </ul>
-                    </div>
-                    <div class="twitter">
+            <div class="account">
+                <div class="container">
+                    <div class="row">
                         <div class="col-sm-3">
-                            <h4>FROM TWITTER</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate cum magni error amet consequatur ea rerum, debitis eum! <a href="#">http://t.co/MqacjST476</a></p>
-                            <p>about 1 hour ago</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae 
-                                natus cumque eveniet quia harum optio fugiat <a href="#">http://t.co/CCkfps248sq</a> Lorem, ipsum.</p>
-                            <p>about 3 hours ago</p>
+                            <h4>MY ACCOUNT</h4>
+                            <ul>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Personal Information</a></li>
+                                <li><a href="#">Addresses</a></li>
+                                <li><a href="#">Discount</a></li>
+                                <li><a href="#">Orders history</a></li>
+                                <li><a href="#">Your Vouchers</a></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="facebook">
                         <div class="col-sm-3">
-                            <div class="row">
+                            <h4>INFORMATION</h4>
+                            <ul>
+                                <li><a href="#">New Products</a></li>
+                                <li><a href="#">Top Sellers</a></li>
+                                <li><a href="#">Specials</a></li>
+                                <li><a href="#">Manufacturers</a></li>
+                                <li><a href="#">Suppliers</a></li>
+                                <li><a href="#">Our Stores</a></li>
+                            </ul>
+                        </div>
+                        <div class="twitter">
+                            <div class="col-sm-3">
+                                <h4>FROM TWITTER</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate cum magni error amet consequatur ea rerum, debitis eum! <a href="#">http://t.co/MqacjST476</a></p>
+                                <p>about 1 hour ago</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae 
+                                    natus cumque eveniet quia harum optio fugiat <a href="#">http://t.co/CCkfps248sq</a> Lorem, ipsum.</p>
+                                <p>about 3 hours ago</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="facebook-like">
                                 <h4>FACEBOOK</h4>
-                                <div class="like-button">
-                                    <a href="#">Like!</a>
+                                <a href="#"><img src="images/like.jpg"></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class='promo'>
+                                <p>1452 people like <a href="#">Promokit</a></p>
+                            </div>
+                            <div class="profile">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="images/Anna.jpg" alt="#">
+                                        <h4><a href="#">Anna</a></h4>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/Tom.jpg" alt="#">
+                                        <h4><a href="#">Tom</a></h4>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/Antuan.jpg" alt="#">
+                                        <h4><a href="#">Antuan</a></h4>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/Milla.jpg" alt="#">
+                                        <h4><a href="#">Milla</a></h4>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/Justine.jpg" alt="#">
+                                        <h4><a href="#">Justine</a></h4>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/Maria.jpg" alt="#">
+                                        <h4><a href="#">Maria</a></h4>
+                                    </div>
                                 </div>
-                                <div class="promokit"><p>1452 people like <a href="#">Promokit</a></p></div>
-                                <div class="col-sm-4"><img src="images/Anna.jpg" alt="#">
-                                <a href="#">Anna</a></div>
-                                <div class="col-sm-4"><img src="images/Tom.jpg" alt="#">
-                                <a href="#">Tom</a></div>
-                                <div class="col-sm-4"><img src="images/Antuan.jpg" alt="#">
-                                <a href="#">Antuan</a></div>
-                                <div class="col-sm-4"><img src="images/Milla.jpg" alt="#">
-                                <a href="#">Milla</a></div>
-                                <div class="col-sm-4"><img src="images/Justine.jpg" alt="#">
-                                <a href="#">Justine</a></div>
-                                <div class="col-sm-4"><img src="images/Maria.jpg" alt="#">
-                                <a href="#">Maria</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div> 
-
+            </div> 
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-sm-6">
                         <img src="images/box1.jpg" alt="#">
                         <img src="images/box2.jpg" alt="#">
                         <img src="images/box3.jpg" alt="#">
@@ -301,7 +315,7 @@
                         <img src="images/box7.jpg" alt="#">
                         <img src="images/box8.jpg" alt="#">
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         <p>&copy; 2012 Powered by WooCommerce &trade;. All Rights Reserved.</p>
                     </div>
                 </div>
