@@ -11,7 +11,7 @@ body {
     padding: 10px 0;
     background-color: #f5f5f5;
     color: #878787;
-    font-size: 12px;
+    font-size: 14px;
     border-top: solid #09a6b8 2px;
 }
 
@@ -20,8 +20,12 @@ body {
     padding: 10px;
 }
 
-.topbar a{
+.topbar a {
     color: #878787;
+}
+
+.topbar a:hover {
+    color: #09a6b8;
 }
 
 .topbar2 a{
@@ -45,12 +49,11 @@ body {
     background-color: #e6e6e6;
     padding: 10px 15px;
     color: #a1a1a1;
-    border-radius: 5px;
 }
 
 .secondary-bar a:hover {
     background-color: #09a6b8;
-    color: 
+    color: white;
 }
 
 .secondary-bar ul {
@@ -197,6 +200,7 @@ body {
 }
 
 .input {
+    background-color: #d4d4d4;
     border: solid #fae01e 3px;
 }
 
@@ -210,6 +214,7 @@ body {
     color: #e3e3e3;
     padding: 30px;
 }
+
 .account ul{
     display: inline;
     margin-right: 5px;
